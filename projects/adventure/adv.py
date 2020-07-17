@@ -41,6 +41,7 @@ def traverse():
             player.travel(reverse_moves[direction])
             moves.append(reverse_moves[direction])
     return moves
+    
 
 # Fill this out with directions to walk
 # traversal_path = ['n', 'n']
